@@ -22,6 +22,6 @@ void setup(void)
 }
 
 void loop(void){
-  buf[0]= servo+syl1*2+syl2*4+(motor>0)*8+abs(motor)*16;
+  msg.buf[0]= servo+syl1*2+syl2*4+(motor>0)*8+abs(motor)*16;
 }
 
